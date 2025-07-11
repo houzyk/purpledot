@@ -1,0 +1,10 @@
+{
+  "name": "purpledot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "Houzair Koussa",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1"
+}
