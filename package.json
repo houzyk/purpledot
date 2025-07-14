@@ -2,7 +2,9 @@
   "name": "purpledot",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "Houzair Koussa",
   "license": "MIT",
