@@ -40,9 +40,9 @@ export default class Compiler {
             .getChildren(sourceFile)
             .find((c) => c.kind === ts.SyntaxKind.StringLiteral);
 
-          const valueAsText = value?.getText(sourceFile).replace(/"|'/g, "");
+          const valueAsText = value?.getText(sourceFile);
 
-          if (!valueAsText?.length) {
+          if (!valueAsText || valueAsText.length === 2) {
             throw new Error("String cannot be empty");
           }
         }
