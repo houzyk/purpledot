@@ -5,6 +5,9 @@
   "scripts": {
     "build": "tsc"
   },
+  "bin": {
+    "purpledot": "./dist/cli/main.js"
+  },
   "keywords": [],
   "author": "Houzair Koussa",
   "license": "MIT",
